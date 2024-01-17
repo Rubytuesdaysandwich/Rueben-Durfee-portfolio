@@ -1,0 +1,18 @@
+.resume-skills-section-content {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    margin: 2rem 2rem;
+}
+
+.list-inline {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.list-inline-item {
+    margin-left: 1rem;
+    font-size: 50px;
+}
