@@ -38,11 +38,22 @@ a:hover {
     color: black;
 }
 
-.about-me {
+.about-me-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: left;
+}
+
+.about-me {
+    display: flex;
+    background-color: black;
+}
+
+.pixafly-image {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
 }
 
 .name {
