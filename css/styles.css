@@ -45,6 +45,7 @@ a:hover {
 }
 
 .portfolio-image {
+    border-radius: 1rem;
     margin: 0.5rem;
     width: 20rem;
     height: 20rem;

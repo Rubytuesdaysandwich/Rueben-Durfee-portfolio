@@ -4,7 +4,17 @@ form {
     margin: 16px;
 }
 
+label {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 input {
     margin: 5px;
-    max-width: 200px;
+    max-width: 10rem;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    max-width: 5rem;
 }
