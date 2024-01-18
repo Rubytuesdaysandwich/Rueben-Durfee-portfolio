@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -14,16 +16,13 @@ body {
     margin-bottom: 16px;
 }
 
-.main-nav {
+.main-nav ul {
     display: flex;
     flex-direction: row;
+    gap: 2rem;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 li,
 a {
@@ -34,26 +33,64 @@ a {
 }
 
 a:hover {
-    font-size: larger;
+    font-weight: bold;
     color: black;
 }
 
+
 .about-me-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    text-align: left;
+
 }
 
 .about-me {
     display: flex;
+    justify-content: space-around;
     background-color: black;
+    color: white;
+
+}
+
+.about-me>div>h1 {
+    font-size: 4rem;
+    margin: 2rem;
+    border-bottom: solid white;
+}
+
+.about-me>div>p {
+    margin: 2rem;
+    font-size: 1.125rem;
+}
+
+.pixafly-image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pixafly-link {
+    font-size: large;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.pixafly-link:hover {
+    font-size: large;
+    list-style: none;
+    color: lightblue;
+    text-decoration: none;
+
 }
 
 .pixafly-image {
     width: 20rem;
     height: 20rem;
     object-fit: cover;
+
 }
 
 .name {
@@ -69,10 +106,20 @@ a:hover {
     margin-top: 0;
     margin-right: 1rem;
     margin-left: 1rem;
+    color: #1e009d;
 }
 
 .portfolio-image-container {
-    justify-content: end;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-image-text {
+    /* justify-content: space-around; */
+    word-wrap: normal;
+    text-align: start;
+    align-self: center;
+    margin: 2rem 2rem;
 }
 
 .portfolio-image {
