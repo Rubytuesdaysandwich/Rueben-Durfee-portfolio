@@ -102,7 +102,7 @@ a:hover {
 }
 
 /* screen size adjust for size of 2000 px moving images and adjusting icons sizes manages the about me section the black box area with the pixafly logo */
-@media screen and (max-width:2000px) {
+/* @media screen and (max-width:2000px) {
     .about-me {
         width: 100vw;
         display: flex;
@@ -129,7 +129,7 @@ a:hover {
 
 
 
-}
+} */
 
 /* screen size adjust for size of 1000 px moving images and adjusting icons sizes manages the about me section the black box area with the pixafly logo */
 @media screen and (max-width:1000px) {
