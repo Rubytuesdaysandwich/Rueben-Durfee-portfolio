@@ -1,3 +1,4 @@
+/* pertains to everything in the skills section */
 .resume-skills-section-content {
     display: flex;
     justify-content: center;
@@ -16,3 +17,5 @@
     margin-left: 1rem;
     font-size: 50px;
 }
+
+/* ▲=========▲ */

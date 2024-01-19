@@ -1,3 +1,4 @@
+/* controls the main body of the entire page */
 body {
     margin: 0;
     padding: 0;
@@ -5,9 +6,13 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* ▲========▲ */
 
+/* header */
 .main-header {
-    width: 100VW;
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
     background-color: #009d94;
     color: white;
     display: flex;
@@ -22,8 +27,6 @@ body {
     gap: 2rem;
 }
 
-
-
 li,
 a {
     font-size: large;
@@ -37,53 +40,57 @@ a:hover {
     color: black;
 }
 
+/* header */
+/* social icons for facebook,instagram,linkedin and github */
+.social-icon {
+    font-size: 2rem;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #009d94;
+    border-radius: 5px;
+
+}
+
+/* ▲=========================▲ */
+
+/* about-me-container  */
 
 .about-me-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 
 .about-me {
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     background-color: black;
     color: white;
+
 
 }
 
 .about-me>div>h1 {
     font-size: 4rem;
     margin: 2rem;
-    border-bottom: solid white;
+    text-decoration: underline;
 }
 
 .about-me>div>p {
     margin: 2rem;
     font-size: 1.125rem;
+    min-width: 1rem;
+    max-width: 61rem;
 }
 
+/* ▲============▲ */
+/* pixafly image container start  */
 .pixafly-image-container {
     display: flex;
     flex-direction: column;
-}
-
-.pixafly-link {
-    font-size: large;
-    list-style: none;
-    color: inherit;
-    text-decoration: none;
-    text-align: center;
-    margin-bottom: 16px;
-}
-
-.pixafly-link:hover {
-    font-size: large;
-    list-style: none;
-    color: lightblue;
-    text-decoration: none;
-
 }
 
 .pixafly-image {
@@ -93,6 +100,8 @@ a:hover {
 
 }
 
+/* pixafly image end ▲=======▲ */
+/* affects Front End Web Developer and Rueben Durfee */
 .name {
     font-size: 2rem;
     margin-top: 0;
@@ -101,31 +110,65 @@ a:hover {
     margin-left: 1rem;
 }
 
+@keyframes colorChange {
+    0% {
+        color: darkblue;
+        background-color: rgb(130, 20, 27);
+    }
+
+    25% {
+        color: rgb(199, 20, 188);
+        background-color: rgb(255, 251, 5);
+    }
+
+    50% {
+        color: rgb(28, 214, 115);
+        background-color: rgb(63, 9, 125);
+    }
+
+    100% {
+        color: #1e009d;
+        background-color: none;
+    }
+}
+
 .front-end {
     font-size: 3rem;
-    margin-top: 0;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin: 1rem 1rem;
     color: #1e009d;
+
+
 }
 
-.portfolio-image-container {
-    display: flex;
-    justify-content: space-around;
+.front-end:hover {
+    animation-name: colorChange;
+    animation-duration: 4s;
+
 }
 
+/* keeps the text center to the image and portfolio image container*/
 .portfolio-image-text {
-    /* justify-content: space-around; */
+
     word-wrap: normal;
     text-align: start;
     align-self: center;
     margin: 2rem 2rem;
 }
 
+/* ▲====================▲ */
+/* contains the pofile image of rueben Durfee */
+.portfolio-image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .portfolio-image {
     border-radius: 1rem;
     margin: 0.5rem;
     width: 20rem;
     height: 20rem;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
+
+/* ▲=============▲ */
