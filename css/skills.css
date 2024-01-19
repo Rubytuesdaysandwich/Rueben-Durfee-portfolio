@@ -13,6 +13,14 @@
     padding: 0;
 }
 
+@media screen and (max-width:700px) {
+    .list-inline {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
 .list-inline-item {
     margin-left: 1rem;
     font-size: 50px;
