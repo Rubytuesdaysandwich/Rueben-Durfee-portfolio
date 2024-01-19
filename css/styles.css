@@ -364,7 +364,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:400px) {
     .social-icon {
         font-size: 1.2rem;
         margin: 0.5rem 1rem;
