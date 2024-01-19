@@ -269,7 +269,7 @@ a:hover {
 }
 
 /* manage the porfile image section with the FRONT END WEB DEVELOPER CHANGE ON SCREEN SIZE 2000 ▼ */
-@media screen and (max-width:2000px) {
+/* @media screen and (max-width:2000px) {
     .front-end {
         font-size: 3rem;
         margin: 1rem 1rem;
@@ -296,7 +296,7 @@ a:hover {
     }
 
 
-}
+} */
 
 /* manage the porfile image section with the FRONT END WEB DEVELOPER CHANGE ON SCREEN SIZE 1000 ▼ */
 @media screen and (max-width:1000px) {
