@@ -100,6 +100,7 @@ a:hover {
 
 }
 
+
 /* pixafly image end ▲=======▲ */
 /* affects Front End Web Developer and Rueben Durfee */
 .name {
@@ -110,6 +111,7 @@ a:hover {
     margin-left: 1rem;
 }
 
+/* animate the h1 tage Front End Web Developer */
 @keyframes colorChange {
     0% {
         color: darkblue;
