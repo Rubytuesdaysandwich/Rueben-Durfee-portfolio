@@ -364,4 +364,16 @@ a:hover {
     }
 }
 
+@media screen and (max-width:300px) {
+    .social-icon {
+        font-size: 1.2rem;
+        margin: 0.5rem 1rem;
+        padding: 0.5rem;
+        color: white;
+        background-color: #009d94;
+        border-radius: 5px;
+
+    }
+}
+
 /* ▲=============▲ */
