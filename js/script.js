@@ -68,7 +68,7 @@ contactForm.addEventListener('submit', function (e) {
 
 // Get the modal
 const modal = Array.from(document.querySelectorAll("#my-Modal"));
-console.log(modal);
+
 // console.log(modal);
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 const imgArray = Array.from(document.querySelectorAll("#modal-img"));
@@ -79,7 +79,7 @@ const modalImg = Array.from(document.querySelectorAll("#img"));
 // console.log(modalImg);
 //=======================
 const captionText = Array.from(document.querySelectorAll("#caption"));
-console.log(captionText);
+
 
 
 console.log(imgArray);
@@ -89,7 +89,7 @@ imgArray.forEach((imgElement, index) => {
         modal[index].style.display = "block";
         modalImg[index].src = this.src;
         captionText[index].innerHTML = this.alt;
-        console.log("click");
+      
     });
 
 });
