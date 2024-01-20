@@ -62,3 +62,53 @@ contactForm.addEventListener('submit', function (e) {
 )
 
 // form submission end
+
+
+//creating a modal
+
+// Get the modal
+const modal = Array.from(document.querySelectorAll("#my-Modal"));
+console.log(modal);
+// console.log(modal);
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+const imgArray = Array.from(document.querySelectorAll("#modal-img"));
+// console.log(img);
+
+//===============
+const modalImg = Array.from(document.querySelectorAll("#img"));
+// console.log(modalImg);
+//=======================
+const captionText = Array.from(document.querySelectorAll("#caption"));
+console.log(captionText);
+
+
+console.log(imgArray);
+
+imgArray.forEach((imgElement, index) => {
+    imgElement.addEventListener('click', function () {
+        modal[index].style.display = "block";
+        modalImg[index].src = this.src;
+        captionText[index].innerHTML = this.alt;
+        console.log("click");
+    });
+
+});
+
+
+
+const activeModal = modal
+// Get the <span> element that closes the modal
+const span = Array.from(document.getElementsByClassName("close"));
+
+// When the user clicks on <span> (x), close the modal
+span.forEach((closeElement, index) => {
+    closeElement.addEventListener('click', function () {
+        console.log('click');
+        if (activeModal && activeModal[index]) {
+            activeModal[index].style.display = "none";
+            console.log(activeModal[index]);
+        } else {
+            console.error('Modal or modal[index] is undefined.');
+        }
+    });
+});
