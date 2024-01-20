@@ -82,14 +82,14 @@ const captionText = Array.from(document.querySelectorAll("#caption"));
 
 
 
-console.log(imgArray);
+
 
 imgArray.forEach((imgElement, index) => {
     imgElement.addEventListener('click', function () {
         modal[index].style.display = "block";
         modalImg[index].src = this.src;
         captionText[index].innerHTML = this.alt;
-      
+
     });
 
 });
