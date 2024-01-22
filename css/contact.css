@@ -3,7 +3,7 @@ form {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    margin: 0rem 2rem;
+    margin: 0rem 0rem;
 }
 
 textarea {
@@ -34,6 +34,6 @@ button {
 
 footer {
     background-color: #009d94;
-    padding: 1rem;
-    width: 100vw;
+    padding: 1rem 0rem;
+    width: 100%;
 }
