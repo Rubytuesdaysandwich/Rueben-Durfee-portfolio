@@ -52,6 +52,7 @@
     justify-content: start;
     flex-direction: column;
     overflow: hidden;
+    word-wrap: break-word;
     background-color: black;
     color: white;
 }
